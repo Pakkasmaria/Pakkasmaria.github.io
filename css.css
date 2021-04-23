@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
 			html {
 				height:100%;
@@ -6,70 +9,83 @@
 				padding: 10px 50px;
 				/*background-image: radial-gradient(at 50% 30%, white, rgba(164,216,230, 1));*/
 				background-repeat: no-repeat;
-  				background-attachment: fixed;
-          overflow: hidden;
-          overflow-y: scroll;
+  			background-attachment: fixed;
+        overflow: hidden;
+        overflow-y: scroll;
+        font-family: "Work Sans", sans-serif;
+        font-size: 15px;
+        color:#5f849a;
+        line-height:1.8;
 			}
       body::-webkit-scrollbar {
           display: none;
       }
+
+h1 {
+  text-align: center;
+  font-family: "Architects Daughter", sans-serif;
+  font-size: 30px;
+}
+
+
 			nav {
 				max-width:900px;
 				margin: 0 auto;
 				padding: 30px 0;
 				/*mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%); */
 			}
-			nav ul {
+			 ul {
 				list-style: none;
-			    text-align: center;
-			    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
-			    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+			   text-align: center;
+			   background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+			   box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
 			}
 
-			nav ul li {
+			 ul li {
 			    display: inline-block;
 			}
 
-			nav ul li a {
+			 ul li a {
 			    padding: 18px;
-			    font-family: "Open Sans";
+			    font-family: "Noto Sans KR";
 			    text-transform:uppercase;
 			    color: rgba(0, 35, 122, 0.5);
 			    font-size: 18px;
+          line-height:1;
 			    text-decoration: none;
 			    display: block;
 			  	position:relative;
 			  	z-index: 1;
 			}
 
-			nav ul li a,
-			nav ul li a:after,
-			nav ul li a:before {
-			  	transition: all .3s;
+			 ul li a,
+			 ul li a:after,
+			 ul li a:before {
+			  	transition: all .3s ease;
 			}
 
-			nav ul li a:hover {
+			 ul li a:hover {
 			  	color: white;
 			}
 
-			nav ul li a:after {
+			 ul li a:after {
 				display: block;
 				position: absolute;
 				top: 0;
-			  	left: 0;
-			  	bottom: 0;
-			  	right: 0;
-			  	margin: auto;
-			  	width: 100%;
-			  	height: 1px;
+			  left: 0;
+			  bottom: 0;
+			  right: 0;
+			  margin: auto;
+			  width: 100%;
+			  height: 1px;
 			 	content: '.';
 			 	color: transparent;
-			  	background: #91a8b6;
-			  	visibility: none;
-			  	opacity: 0;
-			  	z-index: -1;
+			  background: #91a8b6;
+			  visibility: none;
+			  opacity: 0;
+			  z-index: -1;
 			}
-			nav ul li a:hover:after {
+			 ul li a:hover:after {
 			  	opacity: 1;
 			  	visibility: visible;
 			  	height: 100%;
@@ -236,7 +252,6 @@
       }
 
       img.logo {
-      	height:200px;
 	    display: block;
 	    margin-left: auto;
 	    margin-right: auto;
@@ -244,26 +259,97 @@
       }
 
       img.nimi {
-      	height:80px;
 	    display: block;
 	    margin-left: auto;
 	    margin-right: auto;
       }
-
-      img.naama {
-        height:200px;
-        float:left;
-      }
-
 .infolaatikko {
-      font-family: "Open Sans", sans-serif;
-      font-size: 15px;
-      color:#5f849a;
       margin-left: auto;
       margin-right: auto;
-      max-width:800px;
-      text-align: center;
+      max-width:750px;
       padding-bottom: 60px;
-      letter-spacing: 2px;
-      line-height:1.8;
+}
+
+.submitted {
+  text-align: center;
+}
+
+.whitebox {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+}
+
+
+
+
+#gform {
+  max-width:500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #5f849a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+input, textarea {
+  border: solid 1px #91a8b6;
+}
+
+input {
+  height:40px;
+  padding: 0px 15px 0px 15px;
+  margin-bottom:15px;
+  width:49%;
+}
+
+textarea {
+  width:99%;
+  min-width: 99%;
+  max-width: 99%;
+  min-height:50px;
+  max-height:200px;
+  padding:15px;
+  margin-bottom: 15px;
+}
+
+.fsubmit {
+  width:99%;
+  color: #91a8b6;
+  outline:none;
+  transition: 0.3s;
+  background-color: #91a8b6;
+  color: white;
+}
+
+.fsubmit:hover {
+  background-color: white;
+  border: solid 1px #91a8b6;
+  color:#91a8b6;
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.left {
+    width:24%;
+    float:left;
+}
+
+img.naama {
+  width:100%;
+  height:auto;
+}
+
+.right {
+  width:75%;
+  float:right;
+}
+
+.lista {
+  list-style: none;
 }
