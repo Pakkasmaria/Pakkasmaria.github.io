@@ -54,3 +54,9 @@ function showSlides(n) {
         }
   });  
 
+
+
+function hideForm() {
+  document.getElementById("gform").style.display = "none";
+  document.getElementById("submitted").style.display ="block";
+}
