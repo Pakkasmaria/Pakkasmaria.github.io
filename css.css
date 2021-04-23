@@ -343,6 +343,7 @@ img.naama {
 .right {
   width:75%;
   float:right;
+  padding-bottom: 60px;
 }
 
 .lista {
