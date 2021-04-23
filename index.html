@@ -6,7 +6,7 @@
 
   </head>
 
-  <body>
+  <body onload="lataaKuvat()">
     
     <header>
     <img src="https://i.imgur.com/ipkYv0a.png" class="logo">
@@ -26,48 +26,16 @@
     </nav>
   </header>
 
-<div class="row">
-  <div class="column">
-    <img src="https://i.imgur.com/AGRejjV.png" onclick="openModal();currentSlide(1)" class="cursor card">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/IRpttia.png" onclick="openModal();currentSlide(2)" class="cursor card">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/X7EAE8J.png" onclick="openModal();currentSlide(3)" class="cursor card">
-  </div>
-  <div class="column">
-    <img src="https://i.imgur.com/g5w833A.png" onclick="openModal();currentSlide(4)" class="cursor card">
-  </div>
-  <div class="column">
-    <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" onclick="openModal();currentSlide(5)" class="cursor card">
-  </div>
+<div class="row" id="row">
+  <div id="worksPreview">placeholder teksti preview</div>
 </div>
 
 <div id="myModal" class="modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
   <div class="modal-content" id="iso">
 
-    <div class="mySlides" id="iso">
-      <img src="https://i.imgur.com/AGRejjV.png" class="iso">
-    </div>
+    <div id="worksModal">placeholder teksti modal</div>
 
-    <div class="mySlides">
-      <img src="https://i.imgur.com/IRpttia.png" class="iso">
-    </div>
-
-    <div class="mySlides">
-      <img src="https://i.imgur.com/X7EAE8J.png" class="iso">
-    </div>
-    
-    <div class="mySlides">
-      <img src="https://i.imgur.com/g5w833A.png" class="iso">
-    </div>
-
-    <div class="mySlides">
-      <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" class="iso">
-    </div>
-    
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
