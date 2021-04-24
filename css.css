@@ -352,3 +352,12 @@ img.naama {
 .lista {
   list-style: none;
 }
+
+.aboutList {
+  line-height: 1;
+  content: '&diams;' ;
+}
+
+.aboutList:before {
+  content: '\2005\2005\2005''\25CF''\2005\2005\2005';
+}
