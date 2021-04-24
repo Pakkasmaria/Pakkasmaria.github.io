@@ -61,12 +61,15 @@ function lahetaLomake() {
   var z = document.forms["gform"]["entry.1789946270"].value;
   if (x==""){
     document.getElementById("fnimi").style.backgroundColor = "#aec1cc";
+    document.getElementById("fnimi").style.transition = "all 1s";
   }
   if (y==""){
     document.getElementById("femail").style.backgroundColor = "#aec1cc";
+    document.getElementById("femail").style.transition = "all 1s";
   }
   if (z==""){
     document.getElementById("fmessage").style.backgroundColor = "#aec1cc";
+    document.getElementById("fmessage").style.transition = "all 1s";
   }
   else {
   hideForm();
@@ -74,6 +77,7 @@ function lahetaLomake() {
 }
 
 function palautaTausta(x) {
+    document.getElementById(x).style.transition = "all 1s";
     document.getElementById(x).style.backgroundColor = "white";
 }
 
