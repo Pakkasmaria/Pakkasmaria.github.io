@@ -5,7 +5,6 @@ function lataaKuvat() {
 var linkit = [
 "https://i.imgur.com/DLePomn.png",
 "https://i.imgur.com/uE9d5tw.png",
-
 "https://i.imgur.com/pTYIq42.jpg",
 "https://i.imgur.com/ciHVfKc.jpg",
 "https://i.imgur.com/ykRdm7v.jpg",
