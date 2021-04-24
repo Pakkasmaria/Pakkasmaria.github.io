@@ -55,7 +55,27 @@ function showSlides(n) {
 }
 
 
+function lahetaLomake() {
+  var x = document.forms["gform"]["entry.1566658406"].value;
+  var y = document.forms["gform"]["entry.1248783314"].value;
+  var z = document.forms["gform"]["entry.1789946270"].value;
+  if (x==""){
+    document.getElementById("fnimi").style.backgroundColor = "#aec1cc";
+  }
+  if (y==""){
+    document.getElementById("femail").style.backgroundColor = "#aec1cc";
+  }
+  if (z==""){
+    document.getElementById("fmessage").style.backgroundColor = "#aec1cc";
+  }
+  else {
+  hideForm();
+  }
+}
 
+function palautaTausta(x) {
+    document.getElementById(x).style.backgroundColor = "white";
+}
 
 function hideForm() {
   document.getElementById("gform").style.display = "none";
