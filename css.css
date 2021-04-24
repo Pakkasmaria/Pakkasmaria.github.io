@@ -294,6 +294,9 @@ input::placeholder, textarea::placeholder {
 
 input, textarea {
   border: solid 1px #91a8b6;
+  color: #5f849a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
 }
 
 input {
