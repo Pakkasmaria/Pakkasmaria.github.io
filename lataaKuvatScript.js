@@ -23,7 +23,6 @@ var linkit = [
 "https://i.imgur.com/iBaWG2K.jpg",
 "https://i.imgur.com/ouA3dQO.jpg",
 "https://i.imgur.com/4HJMVu4.jpg",
-"https://i.imgur.com/2YpGOXz.jpg",
 "https://i.imgur.com/M0lKSLX.jpg",
 "https://i.imgur.com/pKwQ4BW.jpg",
 "https://i.imgur.com/XshBjwN.jpg"
