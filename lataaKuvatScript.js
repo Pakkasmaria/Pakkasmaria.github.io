@@ -3,8 +3,9 @@
 function lataaKuvat() {
 
 var linkit = [
-"https://i.imgur.com/6CR3iqp.png",
 "https://i.imgur.com/J6zUret.jpg",
+"https://i.imgur.com/6CR3iqp.png",
+"https://i.imgur.com/UUOkQvM.png",
 "https://i.imgur.com/DLePomn.png",
 "https://i.imgur.com/uE9d5tw.png",
 "https://i.imgur.com/pTYIq42.jpg",
