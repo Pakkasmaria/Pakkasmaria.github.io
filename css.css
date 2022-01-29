@@ -7,7 +7,6 @@
       }
       body {
         padding: 10px 50px;
-        /*background-image: radial-gradient(at 50% 30%, white, rgba(164,216,230, 1));*/
         background-repeat: no-repeat;
         background-attachment: fixed;
         overflow: hidden;
@@ -17,6 +16,7 @@
         color:#183169;
         background-color:#183169;
         line-height:1.8;
+        background-image: radial-gradient(at 50% 30%, white, rgba(164,216,230, 1));
       }
       body::-webkit-scrollbar {
           display: none;
